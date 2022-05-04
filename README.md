@@ -20,11 +20,12 @@ For preprocessing, apart from just loading in my data I did not do any preproces
 
 ## Visualization
 
-_Figure 1 Correlation Heat Map_
+
+![](https://i.imgur.com/ZwdE3Zy.png)
 
  Before I started visualizing, I wanted to plot a quick correlation heat map for the table. After plotting my heat map, I moved into my first visualization which was plotting four dimensions. I am working with python so again I chose to use plotly express for my visualizations for this first one. I decided to do a 3d scatter plot. I first filtered down the outcome column to people with diabetes. Then I chose to put the age column on the x axis, blood pressure on the y axis and glucose on the z axis. Those were my three dimensions, for my four dimension I decided to color each point by the BMI column. I t ![](RackMultipart20220504-1-xnk7tf_html_6545707ef75b26bf.png) hen changed the size of each point to be smaller as it was a little hard to see a first. Next I decided to run the PCA on this dataset using sklearn.
 
-![](https://i.imgur.com/ZwdE3Zy.png)
+
 
 ![](https://i.imgur.com/NmarWvJ.png)
 
